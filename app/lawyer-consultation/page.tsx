@@ -1,0 +1,2 @@
+import { LeadForm } from "@/components/LeadForm";
+export default function Page() { return <main className="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:grid-cols-2"><section><h1 className="text-4xl font-extrabold text-brand-900">વકીલની સલાહ</h1><p className="mt-4 text-lg leading-8 text-gray-600">તમારી સમસ્યા સમજાવો અને યોગ્ય વકીલ સાથે ઓનલાઈન કન્સલ્ટેશન બુક કરો.</p><ul className="mt-8 space-y-3 text-gray-700"><li>✓ બિઝનેસ અને કરાર સલાહ</li><li>✓ મિલકત અને પરિવાર બાબતો</li><li>✓ દસ્તાવેજ સમીક્ષા</li><li>✓ કૉલ પછી લખિત સારાંશ</li></ul></section><LeadForm /></main> }
